@@ -38,7 +38,7 @@ x2=data$`Imports Merchandise, Customs, current US$, millions, not seas. adj.`
 x3=data$`Merchandise exports (current US$)`
 ```
 
-##(2) nuage de point ajuste a une droite de regression lineaire
+##(2) Nuage de points ajusté à une droite de régression linéaire
 
 ```{r }
 plot(x1,y,ylab="inflation",xlab="taux de change")
@@ -58,7 +58,7 @@ cor(x3,y)
 abline(lm(y~x3))
 ```
 
-## (3) tableau de resultats de la regression lineaire multiple
+## (3) Tableau des résultats de la régression linéaire multiple
 
 ```{r }
 modele=lm(y~x1+x2+x3)
@@ -80,8 +80,7 @@ tableau_resultats=cbind(coefficients,prob_test_student,R2_ajuste,p_value)
 
 ```
 
-## (4) Graphique en nuage de point ajuste a une droite de regression lineaire
-## etablissant le lien entre les residues (erreurs) et valeurs estimees (fitted values) 
+## (4) Graphique en nuage de points ajusté à une droite de régression linéaire établissant le lien entre les résidus (erreurs) et les valeurs estimées (fitted values) 
 
 ```{r }
 modele$residuals
