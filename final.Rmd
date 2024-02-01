@@ -8,10 +8,9 @@ output: word_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-## (1) Interet du modele
+## (1) Intérêt du modèle
 
-Dans la comprehension de l'evolution ou la tendance d'un phenomene,il s'averera necessairement utile d'explorer ses differents facteurs causaux pour pouvoir le mieux cerner.puis,dans une dynamique de long termiste de realiser des perspectives previsionnelles.Dans cette veine,il importe de mettre en relation quatre (4) variables macroeconomiques:inflation.taux de change, importation et exportation.
-Dans ce cas-ci,l'objectiif est de voir comment l'inflation,comme variable endogene ou reponse,est influence par les trois (3) variables: taux de change, importation et exportation comme variable explicative ou exogene.
+Dans la compréhension de l’évolution ou de la tendance d’un phénomène, il s’avérera nécessaire d’explorer ses différents facteurs causaux pour pouvoir le mieux cerner. Puis, dans une perspective à long terme, il est important de réaliser des prévisions. Dans cette optique, il convient de mettre en relation quatre (4) variables macroéconomiques : l'inflation, le taux de change, l'importation et l'exportation. Dans ce cas-ci, l’objectif est de voir comment l’inflation, en tant que variable endogène ou réponse, est influencée par les trois (3) variables : le taux de change, l'importation et l'exportation, en tant que variables explicatives ou exogènes.
 
 ## Downloading data from an API 
 
@@ -94,7 +93,7 @@ fitted.values
 plot(residuals,fitted.values)
 ```
 
-## (5) commentaire :
+## (5) Commentaire :
 
-Les points qui forment le diagramme de dispersion sont tres eloignes. Les erreurs sont alors importantes. par consequent, avec le modele de regression lineaire, les valeurs du taux de change,de l'importation et de l'exportation ne permettront pas de mieux predire l'inflation,c-a-d le niveau general des prix en Haiti,allant de 1993 a 2013.
+Les points qui forment le diagramme de dispersion sont très éloignés. Les erreurs sont donc importantes. Par conséquent, avec le modèle de régression linéaire, les valeurs du taux de change, de l’importation et de l’exportation ne permettront pas de mieux prédire l’inflation, c'est-à-dire le niveau général des prix en Haïti, de 1993 à 2013.
 
