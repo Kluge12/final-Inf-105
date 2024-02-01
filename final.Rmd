@@ -1,6 +1,6 @@
 ---
-title: "final"
-author: "Kluge Yvens Banatte"
+title: "Final INF105"
+author: "BANATTE Kluge Yvens - BA200051, LAUTURE Jonathan Ken-Jerry - LA184701"
 date: "2024-02-01"
 output: word_document
 ---
